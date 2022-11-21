@@ -505,7 +505,36 @@ static const rpi_hw_t rpi_hw_info[] = {
         .videocore_base = VIDEOCORE_BASE_RPI2,
         .desc = "Compute Module 3+",
     },
+    //ComputeModule 4 Additions
+   {
+        .hwver = 0xa03141,
+        .type = RPI_HWVER_TYPE_PI4,
+        .periph_base = PERIPH_BASE_RPI4,
+        .videocore_base = VIDEOCORE_BASE_RPI2,
+        .desc = "Raspberry Pi Compute Module 4 Rev 1.1"
+    },
 
+   {
+        .hwver = 0xb03141,
+        .type = RPI_HWVER_TYPE_PI4,
+        .periph_base = PERIPH_BASE_RPI4,
+        .videocore_base = VIDEOCORE_BASE_RPI2,
+        .desc = "Raspberry Pi Compute Module 4 Rev 1.1"
+    },       {
+        .hwver = 0xc03141,
+        .type = RPI_HWVER_TYPE_PI4,
+        .periph_base = PERIPH_BASE_RPI4,
+        .videocore_base = VIDEOCORE_BASE_RPI2,
+        .desc = "Raspberry Pi Compute Module 4 Rev 1.1"
+    },
+
+      {
+        .hwver = 0xd03141,
+        .type = RPI_HWVER_TYPE_PI4,
+        .periph_base = PERIPH_BASE_RPI4,
+        .videocore_base = VIDEOCORE_BASE_RPI2,
+        .desc = "Raspberry Pi Compute Module 4 Rev 1.1"
+    }
 
 };
 
